@@ -10,8 +10,8 @@ import ch.ffhs.fragments.staticlayout.TeamsFragment.ListSelectionListener;
 public class DescriptionViewerActivity extends Activity implements
 		ListSelectionListener {
 
-	public static String[] mTitleArray;
-	public static String[] mQuoteArray;
+	public static String[] mTeamArray;
+	public static String[] mDescriptionArray;
 	private DescriptionsFragment mDetailsFragment;
 
 	private static final String TAG = "DescriptionViewerActivity";
@@ -20,9 +20,9 @@ public class DescriptionViewerActivity extends Activity implements
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		// Get the string arrays with the titles and qutoes
-		mTitleArray = getResources().getStringArray(R.array.Teams);
-		mQuoteArray = getResources().getStringArray(R.array.Descriptions);
+		// Get the string arrays with the teams and descriptions
+		mTeamArray = getResources().getStringArray(R.array.Teams);
+		mDescriptionArray = getResources().getStringArray(R.array.Descriptions);
 		
 		setContentView(R.layout.main);
 		
@@ -37,7 +37,7 @@ public class DescriptionViewerActivity extends Activity implements
 		if (mDetailsFragment.getShownIndex() != index) {
 
 			// Tell the QuoteFragment to show the quote string at position index
-			mDetailsFragment.showQuoteAtIndex(index);
+			mDetailsFragment.showDescriptionAtIndex(index);
 		}
 	}
 	

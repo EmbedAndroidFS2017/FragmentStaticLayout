@@ -70,7 +70,7 @@ public class TeamsFragment extends ListFragment {
 		// Set the list adapter for the ListView 
 		// Discussed in more detail in the user interface classes lesson  
 		setListAdapter(new ArrayAdapter<String>(getActivity(),
-				R.layout.title_item, DescriptionViewerActivity.mTitleArray));
+				R.layout.team_item, DescriptionViewerActivity.mTeamArray));
 	}
 	
 	@Override

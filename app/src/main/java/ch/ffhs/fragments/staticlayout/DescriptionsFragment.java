@@ -13,9 +13,9 @@ import android.widget.TextView;
 //so you can follow the class' lifecycle
 public class DescriptionsFragment extends Fragment {
 
-	private TextView mQuoteView = null;
+	private TextView mDescriptionView = null;
 	private int mCurrIdx = -1;
-	private int mQuoteArrayLen;
+	private int mDescriptionArrayLength;
 
 	private static final String TAG = "DescriptionsFragment";
 
@@ -23,12 +23,12 @@ public class DescriptionsFragment extends Fragment {
 		return mCurrIdx;
 	}
 
-	// Show the Quote string at position newIndex
-	public void showQuoteAtIndex(int newIndex) {
-		if (newIndex < 0 || newIndex >= mQuoteArrayLen)
+	// Show the Description string at position newIndex
+	public void showDescriptionAtIndex(int newIndex) {
+		if (newIndex < 0 || newIndex >= mDescriptionArrayLength)
 			return;
 		mCurrIdx = newIndex;
-		mQuoteView.setText(DescriptionViewerActivity.mQuoteArray[mCurrIdx]);
+		mDescriptionView.setText(DescriptionViewerActivity.mDescriptionArray[mCurrIdx]);
 	}
 
 	@Override
@@ -48,18 +48,18 @@ public class DescriptionsFragment extends Fragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		
-		// Inflate the layout defined in quote_fragment.xml
+		// Inflate the layout defined in description_fragment.xml
 		// The last parameter is false because the returned view does not need to be attached to the container ViewGroup
-		return inflater.inflate(R.layout.quote_fragment, container, false);
+		return inflater.inflate(R.layout.description_fragment, container, false);
 	}
 
-	// Set up some information about the mQuoteView TextView 
+	// Set up some information about the mDescriptionView TextView
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
 
-		mQuoteView = (TextView) getActivity().findViewById(R.id.quoteView);
-		mQuoteArrayLen = DescriptionViewerActivity.mQuoteArray.length;
+		mDescriptionView = (TextView) getActivity().findViewById(R.id.descriptionView);
+		mDescriptionArrayLength = DescriptionViewerActivity.mDescriptionArray.length;
 	}
 
 	@Override

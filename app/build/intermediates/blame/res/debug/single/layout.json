@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\projects\\FragmentStaticLayout\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_item.xml",
-        "source": "C:\\projects\\FragmentStaticLayout\\app\\src\\main\\res\\layout\\title_item.xml"
+        "merged": "C:\\projects\\FragmentStaticLayout\\app\\build\\intermediates\\res\\merged\\debug\\layout\\team_item.xml",
+        "source": "C:\\projects\\FragmentStaticLayout\\app\\src\\main\\res\\layout\\team_item.xml"
     },
     {
-        "merged": "C:\\projects\\FragmentStaticLayout\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quote_fragment.xml",
-        "source": "C:\\projects\\FragmentStaticLayout\\app\\src\\main\\res\\layout\\quote_fragment.xml"
+        "merged": "C:\\projects\\FragmentStaticLayout\\app\\build\\intermediates\\res\\merged\\debug\\layout\\description_fragment.xml",
+        "source": "C:\\projects\\FragmentStaticLayout\\app\\src\\main\\res\\layout\\description_fragment.xml"
     },
     {
         "merged": "C:\\projects\\FragmentStaticLayout\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
