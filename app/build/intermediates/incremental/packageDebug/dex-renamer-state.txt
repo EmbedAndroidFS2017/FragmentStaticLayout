@@ -1,0 +1,7 @@
+#Sun May 07 09:53:41 CEST 2017
+base.0=C\:\\projects\\FragmentStaticLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_30fcd7c62d1b481586887510986d80475dbb40dd
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\projects\\FragmentStaticLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_424b84aec5f53feede0591d09b5deb1fe9590286\\classes.dex
+base.1=C\:\\projects\\FragmentStaticLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_424b84aec5f53feede0591d09b5deb1fe9590286
+file.0=C\:\\projects\\FragmentStaticLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_30fcd7c62d1b481586887510986d80475dbb40dd\\classes.dex
