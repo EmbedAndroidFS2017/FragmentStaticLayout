@@ -36,7 +36,7 @@ public class DescriptionViewerActivity extends Activity implements
 	public void onListSelection(int index) {
 		if (mDetailsFragment.getShownIndex() != index) {
 
-			// Tell the QuoteFragment to show the quote string at position index
+			// Tell the DescriptionFragment to show the description string at position index
 			mDetailsFragment.showDescriptionAtIndex(index);
 		}
 	}
