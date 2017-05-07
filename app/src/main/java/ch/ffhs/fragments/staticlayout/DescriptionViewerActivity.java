@@ -12,7 +12,7 @@ public class DescriptionViewerActivity extends Activity implements
 
 	public static String[] mTeamArray;
 	public static String[] mDescriptionArray;
-	private DescriptionsFragment mDetailsFragment;
+	private DescriptionsFragment mDescriptionsFragment;
 
 	private static final String TAG = "DescriptionViewerActivity";
 
@@ -26,19 +26,13 @@ public class DescriptionViewerActivity extends Activity implements
 		
 		setContentView(R.layout.main);
 		
-		// Get a reference to the DescriptionsFragment
-		mDetailsFragment = (DescriptionsFragment) getFragmentManager()
-				.findFragmentById(R.id.details);
+		// TODO: Get a reference to the DescriptionsFragment
 	}
 
 	// Called when the user selects an item in the TeamsFragment
 	@Override
 	public void onListSelection(int index) {
-		if (mDetailsFragment.getShownIndex() != index) {
-
-			// Tell the QuoteFragment to show the quote string at position index
-			mDetailsFragment.showDescriptionAtIndex(index);
-		}
+		//TODO: Tell the DescriptionFragment to show the description string at position index
 	}
 	
 	@Override
